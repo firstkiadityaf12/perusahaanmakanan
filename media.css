@@ -1,0 +1,138 @@
+/* setingan layout */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+/* style css p */
+p {
+
+}
+
+/* h */
+h2{
+
+}
+
+h4{
+
+}
+
+/* membuat style css */
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(header.jpg);
+    height: 100vh;
+    width: auto;
+    background-position: center;
+}
+
+/* membuat rata kanan semua list dan margin atas*/
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+/* membuat sejajar */
+ul li {
+    display: inline-block;
+}
+
+/* membuat dekorasi tombol navbar beserta textnya */
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 25px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+}
+
+/* membuat animasi ketika kursornya mengarah ke navbar */
+ul li a:hover{
+    background-color: #fff;
+    color:#000;
+}
+
+/* membuat animasi ketika di page tersebut / active nya */
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+/* style css logo pojok kanan atas */
+.logo img {
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+/* membuat navbar nya ketengah */
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* membuat class title berada di tengah */
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* mengganti heading 1 style */
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
+
+/* style dari kelas button */
+.button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* style class tombol */
+.tombol {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+/* animaasi button seperti navbar */
+.tombol:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+/* mystyle css container */
+div.content{
+    width: 100%;
+    height: 2250px;
+    background: #ffd082;
+}
+
+/* mystyle css footer */
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0c7b93;
+    color: white;
+    text-align: center;
+ }
+.footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
