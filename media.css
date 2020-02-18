@@ -12,13 +12,8 @@ p {
 
 /* h */
 h2{
-
+    margin-top: 5px;
 }
-
-h4{
-
-}
-
 /* membuat style css */
 header{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(header.jpg);
@@ -113,26 +108,54 @@ ul li.active a{
 /* mystyle css container */
 div.content{
     width: 100%;
-    height: 2250px;
-    background: #ffd082;
+    height: 2000px;
+    background: #ffeadb;
+}
+/* membuat box untuk bagian gambar */
+div.box{
+    display: inline-block;
+    width: 250px;
+    float: center;
+    border: 2px solid #fff;
+    background-color: #ffe75e;
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+div.box img{
+    width: 100%;
+    height: 250px;
+}
+
+div.box:hover{
+    border: 1px solid #000;
+}
+
+div.box div.deskripsi{
+    padding: 10px;
+    text-align: center;
+    font-family: Helvetica;
 }
 
 /* mystyle css footer */
-#footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #0c7b93;
-    color: white;
-    text-align: center;
- }
 .footer{
-    position: relative;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #000;
     color: #fff;
     text-align: center;
+}
+
+/* style css p */
+p{
+    margin: 20px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 85px;
+    margin-right: 60px;
+    font-family: Helvetica;
+    font-size: 15px;
+    line-height: 2.0em;
 }

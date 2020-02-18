@@ -18,10 +18,10 @@
         <form action="landing.html" method="POST" style="text-align:center">
         <!-- memasukan username -->
 		    <label>Username</label>
-		    <input type="text" name="username" class="form_login" placeholder="Enter Username">
+		    <input type="text" name="username" class="form_login" >
         <!-- memasukan password -->
 		    <label>Password</label>
-		    <input type="password" name="password" class="form_login" placeholder="Enter Password">
+		    <input type="password" name="password" class="form_login">
         <!-- tombol login -->
 		    <input type="submit" class="tombol_login" value="LOGIN">
             </form>
