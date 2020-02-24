@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
-    <link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="stylesheet" type="text/css" href="loginregister.css">
     <!-- favicon -->
     <link rel="Shortcut icon" href="icon.png">
 </head>
@@ -15,7 +15,7 @@
 <div class="box_login">
         <h1 style="text-align:center;text-size:70px">LOGIN</h1>
             <p style="text-align:center;font-size: 20px;">Silahkan Masukan Akun Anda</p>
-        <form action="landing.html" method="POST" style="text-align:center">
+        <form action="loginn.php" method="POST" style="text-align:center">
         <!-- memasukan username -->
 		    <label>Username</label>
 		    <input type="text" name="username" class="form_login" >
